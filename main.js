@@ -191,22 +191,36 @@
 //     getAllTheClass(){
 //         return `${this.heigth}${this.typeOfAnimel}${this.age}${this.country}`
 //     }
-36.
-class pants {
-    size:number =;
-    color:string="";
-    typeOfFabric:string ="";
-    length:number="";
-    isavilebal:boolean="true";
+// 36.
+// class pants {
+//     size:number =;
+//     color:string="";
+//     typeOfFabric:string ="";
+//     length:number="";
+//     isavilebal:boolean="true";
 
-    constructor( size:number,color:string,typeOfFabric:string, length:number,isavilebal:boolean){
-        this.size=size;
-        this.color= color;
-        this.typeOfFabric=typeOfFabric;
-        this.length=length;
-        this.isavilebal=isavilebal
-    }
-    private getDetels(){
-        return `${this.size}${this.color}${this.typeOfFabric}${this.length}${this.isavilebal}`
-    }
+//     constructor( size:number,color:string,typeOfFabric:string, length:number,isavilebal:boolean){
+//         this.size=size;
+//         this.color= color;
+//         this.typeOfFabric=typeOfFabric;
+//         this.length=length;
+//         this.isavilebal=isavilebal
+//     }
+//     private getDetels(){
+//         return `${this.size}${this.color}${this.typeOfFabric}${this.length}${this.isavilebal}`
+//     }
+// }
+37.
+class athlets{
+    fullName:string="";
+    dayOfBirth:number= 0;
+    profession:string="";
+    sex:boolean=true
+   
+   constructor(fullName:string,dayOfBirth:number,profession:string,sex?:boolean){
+       this.fullName= fullName;
+       this.dayOfBirth= dayOfBirth;
+       this.profession = profession;
+       this.sex=sex?sex:false;
+   }
 }

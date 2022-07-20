@@ -139,3 +139,31 @@
      return myNum
  }
  console.log(getNumbersAndText([2,33,4,54,3],"Descending"))
+
+ // // 21.
+// function getFirstNameAndOptoinalParamater(firstName:string,leastName?:string) :void{
+//     leastName? console.log( `${leastName} ${firstName} `) :console.log(`${firstName}`) 
+// }
+// getFirstNameAndOptoinalParamater("Gedamo","Daniel")
+
+// 22.
+// function getFullNameAndParameter(fullName :string,Email?:string):void{
+//     Email? console.log(`${Email} ${fullName}`) : console.log(` ${fullName}`)
+// }
+//  getFullNameAndParameter("daniel gedamo","daniel@gmail.com")
+// 23.
+// function getNameOFCateAgeAndType(catAge:string,catType:string,catName?:string):void{
+//     catName? console.log(`${catName} ${catType} ${catAge}`) :console.log(`${catType} ${catAge}`)
+// }
+//  getNameOFCateAgeAndType("2","rehov")
+// 24.
+// function getTextAndBoliyanParametr(text:string, par:boolean = true):string{
+// return par?  `hello ${text}`: `welcome ${text}`
+
+// }
+// console.log(getTextAndBoliyanParametr("im the king" ))
+// 25.
+// function getFirstNameAndLeastName(Fname:string,Lname:string,par:string="miss"):string{
+//     return par?  `miss ${Fname} ${Lname} `:`${Fname} ${Lname}`
+// }
+// console.log(getFirstNameAndLeastName("dani","din")

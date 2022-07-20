@@ -167,3 +167,36 @@
 //     return par?  `miss ${Fname} ${Lname} `:`${Fname} ${Lname}`
 // }
 // console.log(getFirstNameAndLeastName("dani","din")
+// 34.
+// class car {
+//     constractor(brand ,modal, color  )
+//     this.brand = brand 
+//     this.modal = modal
+//     this.color =color 
+// }
+// 35.
+// class pil{
+//     heigth :number =;
+//     typeOfAnimel:string" ";
+//     age:number=;
+//     country:string"";
+
+//     constructor(heigth:number,typeOfAnimel:string,age:number,country:string){ 
+//     this.heigth = heigth;
+//     this.typeOfAnimel= typeOfAnimel;
+//     this.age =age;
+//     this.country= country;
+//     }
+    
+//     getAllTheClass(){
+//         return `${this.heigth}${this.typeOfAnimel}${this.age}${this.country}`
+//     }
+36.
+class pants {
+    size:number =;
+    color:string="";
+    typeOfFabric:string ="";
+    length:number="";
+    avilebal:boolean="true";
+
+}

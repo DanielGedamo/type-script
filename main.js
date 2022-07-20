@@ -197,6 +197,16 @@ class pants {
     color:string="";
     typeOfFabric:string ="";
     length:number="";
-    avilebal:boolean="true";
+    isavilebal:boolean="true";
 
+    constructor( size:number,color:string,typeOfFabric:string, length:number,isavilebal:boolean){
+        this.size=size;
+        this.color= color;
+        this.typeOfFabric=typeOfFabric;
+        this.length=length;
+        this.isavilebal=isavilebal
+    }
+    private getDetels(){
+        return `${this.size}${this.color}${this.typeOfFabric}${this.length}${this.isavilebal}`
+    }
 }

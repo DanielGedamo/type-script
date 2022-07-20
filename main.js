@@ -223,4 +223,43 @@ class athlets{
        this.profession = profession;
        this.sex=sex?sex:false;
    }
-}
+   protected details():string{
+    //        return`${this.fullName} ${this.dayOfBirth}${this.profession} ${this.sex}`
+    //         };
+       
+    // }
+    // console.log(details("daniel gedamo",20.20,"bescatbol","man"))
+    // 38
+    // class player extends athlets{
+    //     fullName:string="";
+    //     dayOfBirth:number= 0;
+    //     profession:string="";
+    //     sex:boolean=true;    
+    // }
+    39.
+    class user{
+        fullName:string="";
+        age:number=0;
+        password:number=0;
+        private_connected:boolean =false
+        constructor(fullName:string,age:number,password:number){
+        this.fullName = fullName;
+        this.age=age;
+        this.password=password;
+        }
+        get getConnected():boolean{
+            return this._connected;
+        }
+        set setconnected(bol:boolean){
+            this._connected=bol;
+        }
+            static getUserAge(text: string, ...restObject: User[]) {
+          return text == "younger" ? restObject.sort((a, b) => a.age - b.age)[0] : restObject.sort((a, b) => b.age - a.age)[0];
+      
+        }
+      }
+      const user1:User = new User("daniel", 7, "45");
+      const user2:User = new User("sol", 17, "67");
+      const user3:User = new User("shly", 876, "5")
+      console.log(User.getUserAge("old", user1, user2, user3));
+    }

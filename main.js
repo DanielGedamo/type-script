@@ -263,3 +263,68 @@ class athlets{
       const user3:User = new User("shly", 876, "5")
       console.log(User.getUserAge("old", user1, user2, user3));
     }
+
+
+    40.
+
+    // class Student extends User {
+    //   firstName: string = "";
+    //   leasName: string = "";
+    //   dayOfBirth: number = 0;
+    //   email: string = "";
+    
+    //   constructor(firstName: string, leastName: string, dayOfBirth: number, email: string, age: number, password: string) {
+    //     super(firstName + leastName, age, password)
+    //     this.firstName = firstName
+    //     this.leasName = leastName
+    //     this.dayOfBirth = dayOfBirth
+    //     this.email = email
+    //   }
+    //   getDeteils(){
+    //     return `${this.firstName}${this.leasName} ${this.dayOfBirth}${this.email}`
+    //   }
+    //   printGreenOrRed(): string {
+    //     return this.is_connected ? "green" :"red"
+    //   }
+    // }
+    // let student1 =new Student("znavu "
+    // ,0,"yrdi",77,"1.1.1990","jbbbb","ddd")
+    
+    // let student2 =new Student("znavu "
+    // ,0,"yrdi",77,"1.1.1990","jbbbb","ddd")
+    
+    // let student3 =new Student("znavu "
+    // ,0,"yrdi",77,"1.1.1990","jbbbb","ddd")
+    
+    41.
+    class Room{
+      width:number =0;
+      length: number =0;
+      SquareMeter:number=0;
+      private is_ther_awindow:boolean=true
+    
+    constructor(width:number,length:number,SquareMeter:number){
+    this.width=width;
+    this.length=length;
+    this.SquareMeter=SquareMeter;
+    }
+    get is_ther_Awindow():boolean{
+     return this.is_ther_awindow
+    }
+    set setis_ther_awindow(bool:boolean){
+       this.is_ther_awindow =bool
+    }
+    static ObjAndArgoment(bigOrSmull:string,...romObj:Room[]){
+       if(bigOrSmull === "smull" ){
+      return romObj.sort((a:Room,b:Room) => b.SquareMeter-a.SquareMeter)[0]
+      }
+      else if(bigOrSmull==="big"){
+        return romObj.sort((a:Room,b:Room) => a.SquareMeter -b.SquareMeter)[0]
+      }
+      return;
+    };
+    } let show1 = new Room(10,20,200)
+    let show2= new Room(80,200,300)
+    console.log(Room.ObjAndArgoment("smull",show1,show2))
+
+    

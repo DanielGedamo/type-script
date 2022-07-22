@@ -1,0 +1,23 @@
+{
+  "name": "type-script",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": " tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielGedamo/type-script.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielGedamo/type-script/issues"
+  },
+  "homepage": "https://github.com/DanielGedamo/type-script#readme",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
